@@ -14,20 +14,15 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
+      "Pretty please?",
+      "With a strawberry cheesecake on top?",
+      "How about a Lotus Pizookie?",
       "You're breaking my heart ;(",
+      "Bruh",
+      "Benny plz",
+      "Y u gotta be so rude?",
+      "Don't you know I'm human too?",
+      "Whatever, I'm gonna marry you anyway",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -39,7 +34,7 @@ export default function Page() {
         {yesPressed ? (
           <>
             <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-            <div className="text-container">Ok yay!!!</div>
+            <div className="text-container">Love you too benny boo!</div>
           </>
         ) : (
           <>
